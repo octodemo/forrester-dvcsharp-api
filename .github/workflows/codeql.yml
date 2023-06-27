@@ -48,7 +48,7 @@ jobs:
       uses: github/codeql-action/init@v2
       with:
         languages: ${{ matrix.language }}
-        queries: seecurity-and-quality
+        queries: security-experimental
 
 
     # Autobuild attempts to build any compiled languages (C/C++, C#, Go, Java, or Swift).
